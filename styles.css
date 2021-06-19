@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Poppins";
+}
+
+.header {
+    height: 10vh;
+
+    background-color: #de4545;
+}
+
+.home-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 90vh;
+
+    background-color: #5fe0c9;
+}
+
+.home-section__title {
+    font-weight: 400;
+    font-size: 32px;
+}

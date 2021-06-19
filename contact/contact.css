@@ -1,0 +1,84 @@
+/* COMPONENTE */
+.contact-section {
+    height: 100%;
+    min-height: 90vh;
+    padding: 75px 0;
+
+    background-color: black;
+    color: white;
+}
+
+.contact-section__content {
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 auto;
+    max-width: 310px;
+}
+
+@media (min-width: 768px) {
+    .contact-section__content {
+        flex-direction: row;
+
+        max-width: 650px;
+    }
+}
+
+.contact-section__content-title {
+    margin: 0;
+    margin-bottom: 20px;
+
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .contact-section__content-title {
+        margin-bottom: 0;
+        margin-right: 70px;
+    }
+}
+
+.contact-form {
+    display: inherit;
+    flex-direction: inherit;
+
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .contact-form {
+        flex-direction: column;
+    }
+}
+
+.contact-form__label {
+    margin-bottom: 5px;
+
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.contact-form__input {
+    height: 45px;
+    margin-bottom: 20px;
+}
+
+.contact-form__textarea {
+    height: 110px;
+    margin-bottom: 50px;
+}
+
+.contact-form__button {
+    width: 100%;
+    padding: 15px 0;
+
+    border-radius: 5px;
+    border-style: none;
+    background-color: #2c2c2c;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Poppins";
+}
